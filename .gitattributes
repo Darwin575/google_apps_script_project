@@ -1,0 +1,6 @@
+# Ensure all text files use LF
+* text=auto
+
+# Specific file types
+*.sh text eol=lf
+*.bat text eol=crlf

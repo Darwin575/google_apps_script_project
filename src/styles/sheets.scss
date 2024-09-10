@@ -1,0 +1,82 @@
+/* Base styles for larger screens */
+iframe {
+  margin-top: 120px;
+  width: 440vw; /* Adjust width for larger screens */
+  height: 750px; /* Adjust height for larger screens */
+  border: 0;
+  transform: scale(0.75); /* Adjust scale for larger screens */
+  transform-origin: 0 0;
+}
+
+/* Styles for tablets and small screens */
+@media only screen and (max-width: 790px) {
+  iframe {
+    margin-top: 120px;
+    width: 465vw; /* Same width for smaller screens */
+    height: 1500px; /* Same height for smaller screens */
+    border: 0;
+    transform: scale(0.22); /* Adjust scale for smaller screens */
+    transform-origin: 0 0;
+  }
+}
+
+/* Portrait mode on tablets and mobile devices */
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+  iframe {
+    margin-top: 120px;
+    width: 440vw; /* Same width for tablets in portrait mode */
+    height: 1300px; /* Same height for tablets in portrait mode */
+    border: 0;
+    transform: scale(0.50); /* Adjust scale for tablets in portrait mode */
+    transform-origin: 0 0;
+  }
+}
+
+/* Landscape mode on tablets */
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+  iframe {
+    margin-top: 120px;
+    width: 440vw; /* Same width for tablets in landscape mode */
+    height: 1300px; /* Same height for tablets in landscape mode */
+    border: 0;
+    transform: scale(0.40); /* Adjust scale for tablets in landscape mode */
+    transform-origin: 0 0;
+  }
+}
+
+/* Portrait mode on mobile devices */
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+  iframe {
+    margin-top: 120px;
+    width: 465vw; /* Same width for mobile devices in portrait mode */
+    height: 1500px; /* Same height for mobile devices in portrait mode */
+    border: 0;
+    transform: scale(0.30); /* Adjust scale for mobile devices in portrait mode */
+    transform-origin: 0 0;
+  }
+}
+
+/* Landscape mode on mobile devices */
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+  iframe {
+    margin-top: 120px;
+    width: 465vw; /* Same width for mobile devices in landscape mode */
+    height: 1500px; /* Same height for mobile devices in landscape mode */
+    border: 0;
+    transform: scale(0.25); /* Adjust scale for mobile devices in landscape mode */
+    transform-origin: 0 0;
+  }
+}
+
+/* Very small screens or extremely narrow devices */
+@media only screen and (max-width: 480px) {
+  iframe {
+    margin-top: 120px;
+    width: 465vw; /* Same width for very small screens */
+    height: 1500px; /* Same height for very small screens */
+    border: 0;
+    transform: scale(0.20); /* Adjust scale for very small screens */
+    transform-origin: 0 0;
+  }
+}
+
