@@ -91,8 +91,10 @@ const styles = {
   sidebar: {
     flex: '1',
     minWidth: '200px',
-    maxWidth: '300px',
+    // maxWidth: '300px',
     marginRight: '20px',
+   alignItems: 'center',
+  
   },
 
   fileListHeader: {
@@ -106,7 +108,8 @@ const styles = {
   },
 
   fileListItem: {
-    margin: '10px 0',
+    margin: '10px 7px',
+    borderBottom: '3px solid #555'
   },
 
   fileButton: {
@@ -114,7 +117,7 @@ const styles = {
     border: 'none',
     color: '#1a73e8',
     cursor: 'pointer',
-    textDecoration: 'underline',
+    // textDecoration: 'underline',
     fontSize: '16px',
     padding: 0,
     fontFamily: 'Arial, sans-serif',
@@ -140,7 +143,7 @@ const styles = {
     },
   },
 
-  '@media only screen and (max-width: 480px)': {
+  '@media only screen and (max-width: 768px)': {
     content: {
       flex: '1',
     },
