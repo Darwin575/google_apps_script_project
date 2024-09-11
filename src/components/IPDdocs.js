@@ -63,50 +63,44 @@ const styles = {
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
-      width: '100%',
-      height: 'auto',
+      width: '95%',
+      height: '100%',
       maxHeight: '80vh',
+      overflowX: 'hidden',
+      
     },
   
     viewerHeader: {
-      marginBottom: '20px',
+      marginBottom: '0px',
       borderBottom: '2px solid #1a73e8',
       paddingBottom: '10px',
       color: '#444',
     },
   
     iframeWrapper: {
-      width: '100%',
+      width: '190%',
       position: 'relative',
-      paddingTop: '56.25%', // Aspect ratio of 16:9
+      paddingTop: '180%', 
       overflow: 'hidden',
       borderRadius: '5px',
+      marginLeft: '400px',
       background: '#f1f1f1',
     },
   
     iframe: {
       position: 'absolute',
-      top: 0,
+      top: '0%',
       left: 0,
       width: '100%',
-      height: '100%',
+      height: '150%',
+      //  width: '125%', 
+      //  height: '140vh',
       border: '0',
-      marginLeft: '60px'
-    },
-  
-    '@media only screen and (max-width: 768px)': {
-      iframeWrapper: {
-        paddingTop: '75%', // Adjust aspect ratio for smaller screens
-      },
-    },
-  
-    '@media only screen and (max-width: 480px)': {
-      iframeWrapper: {
-        paddingTop: '100%', // Ensure iframe takes as much height as possible on very small screens
-      },
-    },
+      margin: '3%'
+    },   
   };
   
+
 
 export default DocumentViewer;
 
